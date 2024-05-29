@@ -139,10 +139,10 @@ def plot_mrc_size(mrc_dict: Dict[str, Tuple[int, float]],
     frame.set_facecolor('0.9')
     frame.set_edgecolor('0.9')
     plt.grid(linestyle='--')
-    plt.savefig("{}.pdf".format(name), bbox_inches="tight")
+    plt.savefig("{}.png".format(name), bbox_inches="tight")
     plt.show()
     plt.clf()
-    print("plot is saved to {}.pdf".format(name))
+    print("plot is saved to {}.png".format(name))
 
 
 def run():
